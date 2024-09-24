@@ -56,4 +56,13 @@
         app:layout_constraintStart_toStartOf="parent"
         android:textSize="18sp" />
 
+    <ImageView
+        android:id="@+id/imagemPiloto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/pontosPiloto"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:contentDescription="Imagem do Piloto" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
